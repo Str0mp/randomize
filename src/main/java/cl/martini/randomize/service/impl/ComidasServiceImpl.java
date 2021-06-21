@@ -36,8 +36,8 @@ public class ComidasServiceImpl implements ComidasService {
 
 	@Override
 	public List<Comida> getAlmuerzo() {
-		List<Comida> listaVerduraGeneral = comidasRepository.findByCategoria("VerduraGeneral");
-		List<Comida> listaVerduraLibre = comidasRepository.findByCategoria("VerduraLibre");
+		List<Comida> listaVerduraGeneral = comidasRepository.findByCategoria("Verdura General");
+		List<Comida> listaVerduraLibre = comidasRepository.findByCategoria("Verdura Libre");
 		List<Comida> listaAceite = comidasRepository.findByCategoria("Aceite");
 		List<Comida> listaCereal = comidasRepository.findByCategoriaAndHorario("Cereal", "almuerzo");
 		List<Comida> listaProteicos = comidasRepository.findByCategoria("Proteicos");
@@ -74,8 +74,8 @@ public class ComidasServiceImpl implements ComidasService {
 
 	@Override
 	public List<Comida> getCena() {
-		List<Comida> listaVerduraGeneral = comidasRepository.findByCategoria("VerduraGeneral");
-		List<Comida> listaVerduraLibre = comidasRepository.findByCategoria("VerduraLibre");
+		List<Comida> listaVerduraGeneral = comidasRepository.findByCategoria("Verdura General");
+		List<Comida> listaVerduraLibre = comidasRepository.findByCategoria("Verdura Libre");
 		List<Comida> listaAceite = comidasRepository.findByCategoria("Aceite");
 		List<Comida> listaCereal = comidasRepository.findByCategoriaAndHorario("Cereal", "almuerzo");
 		List<Comida> listaProteicos = comidasRepository.findByCategoria("Proteicos");
