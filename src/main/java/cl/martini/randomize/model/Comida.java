@@ -38,5 +38,8 @@ public class Comida {
 	@Column(name = "horario")
 	String horario;
 	
+	@Column(name = "url")
+	String url;
+	
 
 }
